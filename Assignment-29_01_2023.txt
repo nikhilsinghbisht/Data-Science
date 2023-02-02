@@ -1,0 +1,73 @@
+﻿Assignment-29/01/2023
+
+
+1.Who developed python programming language?
+ Ans. Guido van Rossum
+
+
+2.which type of programming does python support?
+Ans. Python is an interpreted programming language, supporting object-oriented, structured, and functional programming.
+  
+3.Is python case sensitive when dealing with identifiers?
+Ans. Yes
+
+
+4.what is the correct extension of the python file?
+Ans.     .py
+
+
+5.Is python code compiled or interpreted?
+Ans. Interpreted
+
+
+6.Name a few block of code used to define in python language
+Ans. a module, a function body, and a class definition.
+
+
+7.State a character used to give single line comment in python?
+Ans. Hash(#)
+
+
+8.Mention a function which can help us to find the version of python we are currently working on?
+Ans. sys.version
+
+
+9.Python supports the creation of anonymous functions at runtime using a construct called?
+Ans. lambda
+
+
+10.what does pip stand for python?
+Ans. preferred installer program.
+
+
+11.Mention a few build-in functions in python?
+Ans. print() , input() , max(), min() , type() , etc.
+
+
+12.What is the maximum possible length of an identifier in python?
+Ans. 79 characters.
+
+
+
+
+13.what are the benefits of using python?
+Ans
+1. Mature and Supportive Python Community
+2. Easy to Learn and Use
+3. Hundreds of Python Libraries and Frameworks
+4. Versatility, Efficiency, Reliability, and Speed
+5. Big data, Machine Learning and Cloud Computing
+
+
+14.how is memory managed in python?
+Ans. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager. The Python memory manager has different components which deal with various dynamic storage management aspects, like sharing, segmentation, preallocation or caching.
+At the lowest level, a raw memory allocator ensures that there is enough room in the private heap for storing all Python-related data by interacting with the memory manager of the operating system. On top of the raw memory allocator, several object-specific allocators operate on the same heap and implement distinct memory management policies adapted to the peculiarities of every object type.
+
+
+15.How to install python on window and set its path variables?
+Ans. Download python from their official website.After this, install it on your PC. Look for the location where PYTHON has been installed on your PC .Then go to advanced system settings and add new variable and name it as PYTHON_NAME and paste the copied path.
+Then look for the path variable, select it's value and select edit add a semicolon towards the end of the value if it's not present and then type %PYTHON_HOME%.
+
+
+16.Is indentation required in python?
+Ans. Yes
