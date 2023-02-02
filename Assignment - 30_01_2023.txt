@@ -1,0 +1,157 @@
+﻿Assignment - 30/01/2023
+
+
+Ans1. 
+p=1
+while(p):
+ print("enter the percentage")
+ n=int(input("ënter percentage:"))
+ if n>90:
+     print("grade A")
+ elif n>80 and n<=90:
+     print ("grade B")
+ elif n>=60 and n<=80:
+     print("grade C")
+ else:
+     print("grade D")
+ print("for exist enter 0 else anything")
+ p=int(input("enter want to continue"))
+
+
+Ans 2.
+p=1
+while(p):
+ print("enter cost price of bike")
+ n=int(input("ënter cost:"))
+ if n>100000:
+     print("tax to be paid:",0.15*n)
+ elif n>50000 and n<=100000:
+     print ("tax to be paid",0.1*n)
+ else:
+     print("tax to be paid",0.05*n)
+ print("for exist enter 0 else anything")
+ p=int(input("enter want to continue"))
+
+
+Ans 3.
+p=1
+while(p):
+ print("enter any city")
+ n=(input("ënter city:"))
+ if n=='Delhi':
+     print("Red fort")
+ elif n=='Agra':
+     print ("Taj Mahal")
+ elif n=='Jaipur':
+     print("Jal Mahal")
+ else:
+     print("invalid input")
+ print("for exist enter 0 else anything")
+ p=int(input("enter want to continue"))
+
+
+Ans 4.
+num=int(input("enter a number"))
+count=0
+while(num>10 ):
+    num=num//3
+    count+=1
+print("Number of times the given number is divided by 3 before it is less than and equal to 10 is: ",count)
+
+
+Ans5.
+Python while loop is used to run a block code until a certain condition is met.
+1. A while loop evaluates the condition
+2. If the condition evaluates to True, the code inside the while loop is executed.
+3. condition is evaluated again.
+4. This process continues until the condition is False.
+5. When condition evaluates to False, the loop stops.
+
+
+Eg.program to display numbers from 1 to 5
+# initialize the variable
+i = 1
+n = 5
+#while loop from i = 1 to 5
+while i <= n:
+    print(i)
+    i = i + 1
+Ans 6.
+Pattern 1
+*
+* *
+* * *
+* * * *
+* * * * *
+Code:
+i=0
+while(i<5):
+    j=0
+    while(j<=i):
+        print("*",end=" ")
+        j+=1
+        
+    print()
+    i+=1
+
+
+Pattern 2
+
+
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+Code:
+i=1
+while(i<=5):
+    j=5
+    while(j>i):
+        print(" ",end=' ')
+        j-=1
+    while(j>0):
+        print("*",end=" ")
+        j-=1    
+print() 
+i+=1
+Pattern 3:
+
+
+    *
+   ***
+  *****
+ *******
+*********
+Code:
+i=1
+st=1
+sp=4
+while(i<=5):
+    j=sp
+    while(j>0):
+        print(" ",end='')
+        j-=1
+    t=st
+    while(t>0):
+        print("*",end="")
+        t-=1
+        
+    print()
+    i+=1
+    st+=2
+    sp-=1
+
+
+Ans7.
+num=10
+while(num>0):
+    print(num)
+    num-=1
+
+
+Ans8.
+num=0
+while(num<10):
+    print(10-num)
+    num+=1
